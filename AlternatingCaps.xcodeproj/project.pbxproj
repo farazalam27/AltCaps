@@ -49,11 +49,29 @@
 			);
 			target = E9938DB32DC95EDD0046C422 /* AlternatingCaps MessagesExtension */;
 		};
+		E9938DD12DC9669A0046C422 /* Exceptions for "AlternatingCaps" folder in "AlternatingCaps" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = E9938DAA2DC95EDC0046C422 /* AlternatingCaps */;
+		};
+		E9938DD22DC9669A0046C422 /* Exceptions for "AlternatingCaps" folder in "AlternatingCaps MessagesExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = E9938DB32DC95EDD0046C422 /* AlternatingCaps MessagesExtension */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E9938DAD2DC95EDC0046C422 /* AlternatingCaps */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E9938DD12DC9669A0046C422 /* Exceptions for "AlternatingCaps" folder in "AlternatingCaps" target */,
+				E9938DD22DC9669A0046C422 /* Exceptions for "AlternatingCaps" folder in "AlternatingCaps MessagesExtension" target */,
+			);
 			path = AlternatingCaps;
 			sourceTree = "<group>";
 		};
