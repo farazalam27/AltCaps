@@ -251,6 +251,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Messages Extension Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AlternatingCaps MessagesExtension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AlternatingCaps;
@@ -277,6 +278,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Messages Extension Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AlternatingCaps MessagesExtension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AlternatingCaps;

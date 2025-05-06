@@ -71,14 +71,21 @@ class MessagesViewController: MSMessagesAppViewController {
         // placeholder sits on top of the text view
         bubbleView.addSubview(placeholderLabel)
         view.addSubview(transformButton)
+        
+        let leading = bubbleView.leadingAnchor
+            .constraint(equalTo: view.leadingAnchor, constant: 40)
+        leading.priority = .required   // 1000
+
+        let trailing = bubbleView.trailingAnchor
+            .constraint(equalTo: view.trailingAnchor, constant: -40)
+        trailing.priority = .defaultHigh  // 750
 
         NSLayoutConstraint.activate([
             // bubbleView
-            bubbleView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            leading, trailing,
             bubbleView.topAnchor.constraint(equalTo: view.topAnchor, constant: 40),
-            bubbleView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.8),
             bubbleView.heightAnchor.constraint(equalToConstant: 140),
-
+            
             // inputTextView inside bubble
             inputTextView.leadingAnchor.constraint(equalTo: bubbleView.leadingAnchor, constant: 12),
             inputTextView.trailingAnchor.constraint(equalTo: bubbleView.trailingAnchor, constant: -12),
