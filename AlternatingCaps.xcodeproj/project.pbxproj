@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E9938DB52DC95EDD0046C422 /* AlternatingCaps MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E9938DB42DC95EDD0046C422 /* AlternatingCaps MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E9938E2F2DCA630C0046C422 /* AlternatingCaps.app in Resources */ = {isa = PBXBuildFile; fileRef = E9938DAB2DC95EDC0046C422 /* AlternatingCaps.app */; };
-		E9938E342DCA632F0046C422 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9938DB92DC95EDD0046C422 /* Messages.framework */; };
-		E9938E352DCA632F0046C422 /* Messages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9938DB92DC95EDD0046C422 /* Messages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9938E512DCA9B230046C422 /* AlternatingCaps MessagesExtension.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9938DB42DC95EDD0046C422 /* AlternatingCaps MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9938E522DCAAA0D0046C422 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9938DB92DC95EDD0046C422 /* Messages.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,25 +69,15 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9938E362DCA632F0046C422 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E9938E352DCA632F0046C422 /* Messages.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E9938E4F2DCA93750046C422 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				E9938E512DCA9B230046C422 /* AlternatingCaps MessagesExtension.appex in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -165,7 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9938E342DCA632F0046C422 /* Messages.framework in Frameworks */,
+				E9938E522DCAAA0D0046C422 /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +247,6 @@
 				E9938DB02DC95EDD0046C422 /* Sources */,
 				E9938DB12DC95EDD0046C422 /* Frameworks */,
 				E9938DB22DC95EDD0046C422 /* Resources */,
-				E9938E362DCA632F0046C422 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -418,7 +406,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9938E2F2DCA630C0046C422 /* AlternatingCaps.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "Messages Extension Icon";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AlternatingCaps MessagesExtension/Info.plist";
@@ -521,7 +509,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AlternatingCaps.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AlternatingCapsHost.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -548,7 +536,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AlternatingCaps.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AlternatingCapsHost.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -683,6 +671,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -692,6 +681,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AlternatingCaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -715,6 +705,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AlternatingCaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -728,9 +719,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Alternating Caps";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -760,6 +753,7 @@
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Alternating Caps";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -785,6 +779,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -822,6 +817,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
