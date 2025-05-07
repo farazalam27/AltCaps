@@ -58,9 +58,15 @@
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
       <RemoteRunnable
-         runnableDebuggingMode = "0"
-         BundleIdentifier = "com.apple.MobileSMS"
-         RemotePath = "/var/containers/Bundle/Application/CA14DBDD-AA9D-4FCF-8619-756F0877DD5D/MobileSMS.app">
+         runnableDebuggingMode = "1"
+         BundleIdentifier = "com.apple.MobileSMS">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E9938DB32DC95EDD0046C422"
+            BuildableName = "AltCaps MessagesExtension.appex"
+            BlueprintName = "AltCaps MessagesExtension"
+            ReferencedContainer = "container:AltCaps.xcodeproj">
+         </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
