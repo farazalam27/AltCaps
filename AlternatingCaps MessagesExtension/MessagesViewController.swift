@@ -56,13 +56,23 @@ class MessagesViewController: MSMessagesAppViewController {
 
     private let transformButton: UIButton = {
         let btn = UIButton(type: .system)
-        btn.setTitle("Transform & Send", for: .normal)
+        btn.setTitle("Transform & Add", for: .normal)
         btn.setTitleColor(.white, for: .normal)
         btn.titleLabel?.font = .systemFont(ofSize: 16, weight: .medium)
         btn.backgroundColor = UIColor(white: 0.15, alpha: 1)
         btn.layer.cornerRadius = 12
         btn.translatesAutoresizingMaskIntoConstraints = false
         return btn
+    }()
+    
+    private let feedbackLabel: UILabel = {
+        let lbl = UILabel()
+        lbl.text = "Added Text!"
+        lbl.textColor = .white
+        lbl.font = .systemFont(ofSize: 14, weight: .medium)
+        lbl.alpha = 0        // start hidden
+        lbl.translatesAutoresizingMaskIntoConstraints = false
+        return lbl
     }()
 
     private let buttonStack: UIStackView = {
@@ -91,6 +101,7 @@ class MessagesViewController: MSMessagesAppViewController {
         bubbleView.addSubview(inputTextView)
         bubbleView.addSubview(placeholderLabel)
         view.addSubview(buttonStack)
+        view.addSubview(feedbackLabel)
 
         buttonStack.addArrangedSubview(pasteButton)
         buttonStack.addArrangedSubview(transformButton)
@@ -124,6 +135,10 @@ class MessagesViewController: MSMessagesAppViewController {
             buttonStack.leadingAnchor.constraint(equalTo: bubbleView.leadingAnchor),
             buttonStack.trailingAnchor.constraint(equalTo: bubbleView.trailingAnchor),
             buttonStack.heightAnchor.constraint(equalToConstant: 44),
+            
+            // feedbackLabel: centered under the stack
+            feedbackLabel.topAnchor.constraint(equalTo: buttonStack.bottomAnchor, constant: 12),
+            feedbackLabel.centerXAnchor.constraint(equalTo: buttonStack.centerXAnchor),
 
             // Transform button fixed width
             transformButton.widthAnchor.constraint(equalToConstant: 180)
@@ -143,19 +158,32 @@ class MessagesViewController: MSMessagesAppViewController {
     @objc private func transformTapped() {
         let original = inputTextView.text ?? ""
         guard !original.isEmpty else {
-            showAlert("No text to transform", "Paste or type something first.")
+            // you can still show the placeholder if you like
             return
         }
-
         let transformed = original.alternatingCaps
         UIImpactFeedbackGenerator(style: .light).impactOccurred()
 
-        if let convo = activeConversation {
-            // 1) Insert the text
-            convo.insertText(transformed, completionHandler: nil)
+        activeConversation?.insertText(transformed, completionHandler: nil)
 
-            // 2) Collapse the extension to reveal the Messages input
-            requestPresentationStyle(.compact)
+        // show fading feedback
+        showFeedback()
+    }
+
+    private func showFeedback() {
+        feedbackLabel.layer.removeAllAnimations()
+        feedbackLabel.alpha = 1
+        UIView.animate(
+          withDuration: 0.3,
+          animations: { self.feedbackLabel.alpha = 1 }
+        ) { _ in
+          UIView.animate(
+            withDuration: 1.5,
+            delay: 0.5,
+            options: [],
+            animations: { self.feedbackLabel.alpha = 0 },
+            completion: nil
+          )
         }
     }
 
