@@ -1,13 +1,13 @@
 //
-//  AlternatingCapsHostUITestsLaunchTests.swift
-//  AlternatingCapsHostUITests
+//  AltCapsHostUITestsLaunchTests.swift
+//  AltCapsHostUITests
 //
 //  Created by Faraz Alam on 5/5/25.
 //
 
 import XCTest
 
-final class AlternatingCapsHostUITestsLaunchTests: XCTestCase {
+final class AltCapsHostUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

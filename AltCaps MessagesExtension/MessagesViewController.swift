@@ -1,6 +1,6 @@
 //
 //  MessagesViewController.swift
-//  AlternatingCaps MessagesExtension
+//  AltCaps MessagesExtension
 //
 //  Created by Faraz Alam on 5/5/25.
 //

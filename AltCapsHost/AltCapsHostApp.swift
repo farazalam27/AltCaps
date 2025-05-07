@@ -1,6 +1,6 @@
 //
-//  AlternatingCapsHostApp.swift
-//  AlternatingCapsHost
+//  AltCapsHostApp.swift
+//  AltCapsHost
 //
 //  Created by Faraz Alam on 5/5/25.
 //

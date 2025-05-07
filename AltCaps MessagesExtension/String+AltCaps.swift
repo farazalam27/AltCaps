@@ -1,10 +1,10 @@
 //
-//  String+AlternatingCaps.swift
-//  AlternatingCaps
+//  String+AltCaps.swift
+//  AltCaps
 //
 //  Created by Faraz Alam on 5/5/25.
 //
-// String+AlternatingCaps.swift
+// String+AltCaps.swift
 // No changes here—keep this in your AlternatingCaps (formerly TextAlternator) target.
 
 import Foundation

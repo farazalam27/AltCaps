@@ -91,21 +91,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E9938DC42DC95EDE0046C422 /* Exceptions for "AlternatingCaps MessagesExtension" folder in "AltCaps MessagesExtension" target */ = {
+		E9938DC42DC95EDE0046C422 /* Exceptions for "AltCaps MessagesExtension" folder in "AltCaps MessagesExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
 			target = E9938DB32DC95EDD0046C422 /* AltCaps MessagesExtension */;
 		};
-		E9938DD12DC9669A0046C422 /* Exceptions for "AlternatingCaps" folder in "AltCaps" target */ = {
+		E9938DD12DC9669A0046C422 /* Exceptions for "AltCaps" folder in "AltCaps" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Assets.xcassets,
 			);
 			target = E9938DAA2DC95EDC0046C422 /* AltCaps */;
 		};
-		E9938DD22DC9669A0046C422 /* Exceptions for "AlternatingCaps" folder in "AltCaps MessagesExtension" target */ = {
+		E9938DD22DC9669A0046C422 /* Exceptions for "AltCaps" folder in "AltCaps MessagesExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Assets.xcassets,
@@ -115,36 +115,36 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E9938DAD2DC95EDC0046C422 /* AlternatingCaps */ = {
+		E9938DAD2DC95EDC0046C422 /* AltCaps */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E9938DD12DC9669A0046C422 /* Exceptions for "AlternatingCaps" folder in "AltCaps" target */,
-				E9938DD22DC9669A0046C422 /* Exceptions for "AlternatingCaps" folder in "AltCaps MessagesExtension" target */,
+				E9938DD12DC9669A0046C422 /* Exceptions for "AltCaps" folder in "AltCaps" target */,
+				E9938DD22DC9669A0046C422 /* Exceptions for "AltCaps" folder in "AltCaps MessagesExtension" target */,
 			);
-			path = AlternatingCaps;
+			path = AltCaps;
 			sourceTree = "<group>";
 		};
-		E9938DBB2DC95EDD0046C422 /* AlternatingCaps MessagesExtension */ = {
+		E9938DBB2DC95EDD0046C422 /* AltCaps MessagesExtension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E9938DC42DC95EDE0046C422 /* Exceptions for "AlternatingCaps MessagesExtension" folder in "AltCaps MessagesExtension" target */,
+				E9938DC42DC95EDE0046C422 /* Exceptions for "AltCaps MessagesExtension" folder in "AltCaps MessagesExtension" target */,
 			);
-			path = "AlternatingCaps MessagesExtension";
+			path = "AltCaps MessagesExtension";
 			sourceTree = "<group>";
 		};
-		E9938E032DC9BB8F0046C422 /* AlternatingCapsHost */ = {
+		E9938E032DC9BB8F0046C422 /* AltCapsHost */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AlternatingCapsHost;
+			path = AltCapsHost;
 			sourceTree = "<group>";
 		};
-		E9938E112DC9BB900046C422 /* AlternatingCapsHostTests */ = {
+		E9938E112DC9BB900046C422 /* AltCapsHostTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AlternatingCapsHostTests;
+			path = AltCapsHostTests;
 			sourceTree = "<group>";
 		};
-		E9938E1B2DC9BB900046C422 /* AlternatingCapsHostUITests */ = {
+		E9938E1B2DC9BB900046C422 /* AltCapsHostUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AlternatingCapsHostUITests;
+			path = AltCapsHostUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -185,11 +185,11 @@
 		E9938DA42DC95EDC0046C422 = {
 			isa = PBXGroup;
 			children = (
-				E9938DAD2DC95EDC0046C422 /* AlternatingCaps */,
-				E9938DBB2DC95EDD0046C422 /* AlternatingCaps MessagesExtension */,
-				E9938E032DC9BB8F0046C422 /* AlternatingCapsHost */,
-				E9938E112DC9BB900046C422 /* AlternatingCapsHostTests */,
-				E9938E1B2DC9BB900046C422 /* AlternatingCapsHostUITests */,
+				E9938DAD2DC95EDC0046C422 /* AltCaps */,
+				E9938DBB2DC95EDD0046C422 /* AltCaps MessagesExtension */,
+				E9938E032DC9BB8F0046C422 /* AltCapsHost */,
+				E9938E112DC9BB900046C422 /* AltCapsHostTests */,
+				E9938E1B2DC9BB900046C422 /* AltCapsHostUITests */,
 				E9938DB82DC95EDD0046C422 /* Frameworks */,
 				E9938DAC2DC95EDC0046C422 /* Products */,
 			);
@@ -231,7 +231,7 @@
 				E9938DB72DC95EDD0046C422 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E9938DAD2DC95EDC0046C422 /* AlternatingCaps */,
+				E9938DAD2DC95EDC0046C422 /* AltCaps */,
 			);
 			name = AltCaps;
 			packageProductDependencies = (
@@ -253,7 +253,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E9938DBB2DC95EDD0046C422 /* AlternatingCaps MessagesExtension */,
+				E9938DBB2DC95EDD0046C422 /* AltCaps MessagesExtension */,
 			);
 			name = "AltCaps MessagesExtension";
 			packageProductDependencies = (
@@ -279,7 +279,7 @@
 				E9938E472DCA64300046C422 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E9938E032DC9BB8F0046C422 /* AlternatingCapsHost */,
+				E9938E032DC9BB8F0046C422 /* AltCapsHost */,
 			);
 			name = AltCapsHost;
 			packageProductDependencies = (
@@ -302,7 +302,7 @@
 				E9938E102DC9BB900046C422 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E9938E112DC9BB900046C422 /* AlternatingCapsHostTests */,
+				E9938E112DC9BB900046C422 /* AltCapsHostTests */,
 			);
 			name = AltCapsHostTests;
 			packageProductDependencies = (
@@ -325,7 +325,7 @@
 				E9938E1A2DC9BB900046C422 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E9938E1B2DC9BB900046C422 /* AlternatingCapsHostUITests */,
+				E9938E1B2DC9BB900046C422 /* AltCapsHostUITests */,
 			);
 			name = AltCapsHostUITests;
 			packageProductDependencies = (
@@ -502,7 +502,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AlternatingCaps MessagesExtension/Info.plist";
+				INFOPLIST_FILE = "AltCaps MessagesExtension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AltCaps;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -532,7 +532,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AlternatingCaps MessagesExtension/Info.plist";
+				INFOPLIST_FILE = "AltCaps MessagesExtension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AltCaps;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
