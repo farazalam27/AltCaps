@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct AlternatingCapsHostApp: App {
+struct AltCapsHostApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

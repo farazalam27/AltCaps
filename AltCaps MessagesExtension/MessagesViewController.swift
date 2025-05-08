@@ -161,7 +161,7 @@ class MessagesViewController: MSMessagesAppViewController {
             // you can still show the placeholder if you like
             return
         }
-        let transformed = original.alternatingCaps
+        let transformed = original.altCaps
         UIImpactFeedbackGenerator(style: .light).impactOccurred()
 
         activeConversation?.insertText(transformed, completionHandler: nil)

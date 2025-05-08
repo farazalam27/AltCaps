@@ -5,14 +5,14 @@
 //  Created by Faraz Alam on 5/5/25.
 //
 // String+AltCaps.swift
-// No changes here—keep this in your AlternatingCaps (formerly TextAlternator) target.
+// No changes here—keep this in your AltCaps (formerly TextAlternator) target.
 
 import Foundation
 
 extension String {
     /// Alternates alphabetic characters between lower- and uppercase,
     /// skipping non-letters (spaces/punctuation/digits remain untouched).
-    var alternatingCaps: String {
+    var altCaps: String {
         var makeUpper = false
         return self
             .map { ch -> Character in
