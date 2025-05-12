@@ -33,5 +33,5 @@
 
 **Clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/AltCaps.git
+   git clone https://github.com/farazalam27/AltCaps.git
    cd AltCaps
