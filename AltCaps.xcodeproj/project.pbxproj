@@ -7,34 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9938DB52DC95EDD0046C422 /* AltCaps MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E9938DB42DC95EDD0046C422 /* AltCaps MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E9938E512DCA9B230046C422 /* AltCaps MessagesExtension.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9938DB42DC95EDD0046C422 /* AltCaps MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9938DB52DC95EDD0046C422 /* AltCapsMessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E9938DB42DC95EDD0046C422 /* AltCapsMessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E9938E522DCAAA0D0046C422 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9938DB92DC95EDD0046C422 /* Messages.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		E9938DB62DC95EDD0046C422 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9938DA52DC95EDC0046C422 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9938DB32DC95EDD0046C422;
-			remoteInfo = "AlternatingCaps MessagesExtension";
-		};
-		E9938E302DCA630C0046C422 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9938DA52DC95EDC0046C422 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9938DAA2DC95EDC0046C422;
-			remoteInfo = AlternatingCaps;
-		};
-		E9938E322DCA63200046C422 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9938DA52DC95EDC0046C422 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9938DAA2DC95EDC0046C422;
-			remoteInfo = AlternatingCaps;
-		};
-		E9938E462DCA64300046C422 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E9938DA52DC95EDC0046C422 /* Project object */;
 			proxyType = 1;
@@ -50,51 +28,34 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				E9938DB52DC95EDD0046C422 /* AltCaps MessagesExtension.appex in Embed Foundation Extensions */,
+				E9938DB52DC95EDD0046C422 /* AltCapsMessagesExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9938E4F2DCA93750046C422 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				E9938E512DCA9B230046C422 /* AltCaps MessagesExtension.appex in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E9938DAB2DC95EDC0046C422 /* AltCaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltCaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9938DB42DC95EDD0046C422 /* AltCaps MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AltCaps MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9938DB42DC95EDD0046C422 /* AltCapsMessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AltCapsMessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9938DB92DC95EDD0046C422 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
-		E9938E022DC9BB8F0046C422 /* AltCapsHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltCapsHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E9938DC42DC95EDE0046C422 /* Exceptions for "AltCaps MessagesExtension" folder in "AltCaps MessagesExtension" target */ = {
+		E9635A6D2DD10A2200B03FA8 /* Exceptions for "AltCaps" folder in "AltCaps" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Info.plist,
+			);
+			target = E9938DAA2DC95EDC0046C422 /* AltCaps */;
+		};
+		E9938DC42DC95EDE0046C422 /* Exceptions for "AltCapsMessagesExtension" folder in "AltCapsMessagesExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = E9938DB32DC95EDD0046C422 /* AltCaps MessagesExtension */;
-		};
-		E9938DD12DC9669A0046C422 /* Exceptions for "AltCaps" folder in "AltCaps" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Assets.xcassets,
-			);
-			target = E9938DAA2DC95EDC0046C422 /* AltCaps */;
-		};
-		E9938DD22DC9669A0046C422 /* Exceptions for "AltCaps" folder in "AltCaps MessagesExtension" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Assets.xcassets,
-			);
-			target = E9938DB32DC95EDD0046C422 /* AltCaps MessagesExtension */;
+			target = E9938DB32DC95EDD0046C422 /* AltCapsMessagesExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -102,23 +63,17 @@
 		E9938DAD2DC95EDC0046C422 /* AltCaps */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E9938DD12DC9669A0046C422 /* Exceptions for "AltCaps" folder in "AltCaps" target */,
-				E9938DD22DC9669A0046C422 /* Exceptions for "AltCaps" folder in "AltCaps MessagesExtension" target */,
+				E9635A6D2DD10A2200B03FA8 /* Exceptions for "AltCaps" folder in "AltCaps" target */,
 			);
 			path = AltCaps;
 			sourceTree = "<group>";
 		};
-		E9938DBB2DC95EDD0046C422 /* AltCaps MessagesExtension */ = {
+		E9938DBB2DC95EDD0046C422 /* AltCapsMessagesExtension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E9938DC42DC95EDE0046C422 /* Exceptions for "AltCaps MessagesExtension" folder in "AltCaps MessagesExtension" target */,
+				E9938DC42DC95EDE0046C422 /* Exceptions for "AltCapsMessagesExtension" folder in "AltCapsMessagesExtension" target */,
 			);
-			path = "AltCaps MessagesExtension";
-			sourceTree = "<group>";
-		};
-		E9938E032DC9BB8F0046C422 /* AltCapsHost */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AltCapsHost;
+			path = AltCapsMessagesExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -132,13 +87,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9938DFF2DC9BB8F0046C422 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -146,8 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				E9938DAD2DC95EDC0046C422 /* AltCaps */,
-				E9938DBB2DC95EDD0046C422 /* AltCaps MessagesExtension */,
-				E9938E032DC9BB8F0046C422 /* AltCapsHost */,
+				E9938DBB2DC95EDD0046C422 /* AltCapsMessagesExtension */,
 				E9938DB82DC95EDD0046C422 /* Frameworks */,
 				E9938DAC2DC95EDC0046C422 /* Products */,
 			);
@@ -157,8 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				E9938DAB2DC95EDC0046C422 /* AltCaps.app */,
-				E9938DB42DC95EDD0046C422 /* AltCaps MessagesExtension.appex */,
-				E9938E022DC9BB8F0046C422 /* AltCapsHost.app */,
+				E9938DB42DC95EDD0046C422 /* AltCapsMessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,9 +142,9 @@
 			productReference = E9938DAB2DC95EDC0046C422 /* AltCaps.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		E9938DB32DC95EDD0046C422 /* AltCaps MessagesExtension */ = {
+		E9938DB32DC95EDD0046C422 /* AltCapsMessagesExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9938DC52DC95EDE0046C422 /* Build configuration list for PBXNativeTarget "AltCaps MessagesExtension" */;
+			buildConfigurationList = E9938DC52DC95EDE0046C422 /* Build configuration list for PBXNativeTarget "AltCapsMessagesExtension" */;
 			buildPhases = (
 				E9938DB02DC95EDD0046C422 /* Sources */,
 				E9938DB12DC95EDD0046C422 /* Frameworks */,
@@ -209,40 +155,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E9938DBB2DC95EDD0046C422 /* AltCaps MessagesExtension */,
+				E9938DBB2DC95EDD0046C422 /* AltCapsMessagesExtension */,
 			);
-			name = "AltCaps MessagesExtension";
+			name = AltCapsMessagesExtension;
 			packageProductDependencies = (
 			);
 			productName = "AlternatingCaps MessagesExtension";
-			productReference = E9938DB42DC95EDD0046C422 /* AltCaps MessagesExtension.appex */;
+			productReference = E9938DB42DC95EDD0046C422 /* AltCapsMessagesExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
-		};
-		E9938E012DC9BB8F0046C422 /* AltCapsHost */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9938E202DC9BB900046C422 /* Build configuration list for PBXNativeTarget "AltCapsHost" */;
-			buildPhases = (
-				E9938DFE2DC9BB8F0046C422 /* Sources */,
-				E9938DFF2DC9BB8F0046C422 /* Frameworks */,
-				E9938E002DC9BB8F0046C422 /* Resources */,
-				E9938E4F2DCA93750046C422 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E9938E312DCA630C0046C422 /* PBXTargetDependency */,
-				E9938E332DCA63200046C422 /* PBXTargetDependency */,
-				E9938E472DCA64300046C422 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E9938E032DC9BB8F0046C422 /* AltCapsHost */,
-			);
-			name = AltCapsHost;
-			packageProductDependencies = (
-			);
-			productName = AlternatingCapsHost;
-			productReference = E9938E022DC9BB8F0046C422 /* AltCapsHost.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -259,9 +179,6 @@
 						LastSwiftMigration = 1630;
 					};
 					E9938DB32DC95EDD0046C422 = {
-						CreatedOnToolsVersion = 16.3;
-					};
-					E9938E012DC9BB8F0046C422 = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
@@ -281,8 +198,7 @@
 			projectRoot = "";
 			targets = (
 				E9938DAA2DC95EDC0046C422 /* AltCaps */,
-				E9938DB32DC95EDD0046C422 /* AltCaps MessagesExtension */,
-				E9938E012DC9BB8F0046C422 /* AltCapsHost */,
+				E9938DB32DC95EDD0046C422 /* AltCapsMessagesExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -302,24 +218,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9938E002DC9BB8F0046C422 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9938DB02DC95EDD0046C422 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9938DFE2DC9BB8F0046C422 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,23 +233,8 @@
 /* Begin PBXTargetDependency section */
 		E9938DB72DC95EDD0046C422 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9938DB32DC95EDD0046C422 /* AltCaps MessagesExtension */;
+			target = E9938DB32DC95EDD0046C422 /* AltCapsMessagesExtension */;
 			targetProxy = E9938DB62DC95EDD0046C422 /* PBXContainerItemProxy */;
-		};
-		E9938E312DCA630C0046C422 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9938DAA2DC95EDC0046C422 /* AltCaps */;
-			targetProxy = E9938E302DCA630C0046C422 /* PBXContainerItemProxy */;
-		};
-		E9938E332DCA63200046C422 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9938DAA2DC95EDC0046C422 /* AltCaps */;
-			targetProxy = E9938E322DCA63200046C422 /* PBXContainerItemProxy */;
-		};
-		E9938E472DCA64300046C422 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9938DB32DC95EDD0046C422 /* AltCaps MessagesExtension */;
-			targetProxy = E9938E462DCA64300046C422 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -364,7 +251,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AltCaps MessagesExtension/Info.plist";
+				INFOPLIST_FILE = AltCapsMessagesExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AltCaps;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -394,7 +281,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "AltCaps MessagesExtension/Info.plist";
+				INFOPLIST_FILE = AltCapsMessagesExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AltCaps;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -542,6 +429,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AltCaps/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AltCaps;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -549,7 +438,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AltCaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -566,6 +455,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U9DLQF7AK;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AltCaps/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AltCaps;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -573,70 +464,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AltCaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E9938E212DC9BB900046C422 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6U9DLQF7AK;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AltCaps;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AltCapsHost;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E9938E222DC9BB900046C422 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6U9DLQF7AK;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AltCaps;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.fqa.AltCapsHost;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -655,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9938DC52DC95EDE0046C422 /* Build configuration list for PBXNativeTarget "AltCaps MessagesExtension" */ = {
+		E9938DC52DC95EDE0046C422 /* Build configuration list for PBXNativeTarget "AltCapsMessagesExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9938DC62DC95EDE0046C422 /* Debug */,
@@ -669,15 +497,6 @@
 			buildConfigurations = (
 				E9938DCC2DC95EDE0046C422 /* Debug */,
 				E9938DCD2DC95EDE0046C422 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9938E202DC9BB900046C422 /* Build configuration list for PBXNativeTarget "AltCapsHost" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9938E212DC9BB900046C422 /* Debug */,
-				E9938E222DC9BB900046C422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

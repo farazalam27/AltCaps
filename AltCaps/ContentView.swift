@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  AltCapsHost
+//  AltCaps
 //
 //  Created by Faraz Alam on 5/5/25.
 //

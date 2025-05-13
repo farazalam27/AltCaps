@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1630"
-   version = "1.7">
+   version = "2.2">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
       buildArchitectures = "Automatic">
       <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <AutocreatedTestPlanReference>
+            </AutocreatedTestPlanReference>
+         </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
@@ -15,9 +24,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9938E012DC9BB8F0046C422"
-               BuildableName = "AltCapsHost.app"
-               BlueprintName = "AltCapsHost"
+               BlueprintIdentifier = "E9938DAA2DC95EDC0046C422"
+               BuildableName = "AltCaps.app"
+               BlueprintName = "AltCaps"
                ReferencedContainer = "container:AltCaps.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,30 +38,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9938E172DC9BB900046C422"
-               BuildableName = "AltCapsHostUITests.xctest"
-               BlueprintName = "AltCapsHostUITests"
-               ReferencedContainer = "container:AltCaps.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9938E0D2DC9BB900046C422"
-               BuildableName = "AltCapsHostTests.xctest"
-               BlueprintName = "AltCapsHostTests"
-               ReferencedContainer = "container:AltCaps.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -68,9 +53,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9938E012DC9BB8F0046C422"
-            BuildableName = "AltCapsHost.app"
-            BlueprintName = "AltCapsHost"
+            BlueprintIdentifier = "E9938DAA2DC95EDC0046C422"
+            BuildableName = "AltCaps.app"
+            BlueprintName = "AltCaps"
             ReferencedContainer = "container:AltCaps.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,9 +70,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9938E012DC9BB8F0046C422"
-            BuildableName = "AltCapsHost.app"
-            BlueprintName = "AltCapsHost"
+            BlueprintIdentifier = "E9938DAA2DC95EDC0046C422"
+            BuildableName = "AltCaps.app"
+            BlueprintName = "AltCaps"
             ReferencedContainer = "container:AltCaps.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

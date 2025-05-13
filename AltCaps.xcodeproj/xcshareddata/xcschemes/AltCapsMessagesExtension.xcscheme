@@ -17,8 +17,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E9938DB32DC95EDD0046C422"
-               BuildableName = "AltCaps MessagesExtension.appex"
-               BlueprintName = "AltCaps MessagesExtension"
+               BuildableName = "AltCapsMessagesExtension.appex"
+               BlueprintName = "AltCapsMessagesExtension"
                ReferencedContainer = "container:AltCaps.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -63,8 +63,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9938DB32DC95EDD0046C422"
-            BuildableName = "AltCaps MessagesExtension.appex"
-            BlueprintName = "AltCaps MessagesExtension"
+            BuildableName = "AltCapsMessagesExtension.appex"
+            BlueprintName = "AltCapsMessagesExtension"
             ReferencedContainer = "container:AltCaps.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
