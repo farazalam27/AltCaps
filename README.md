@@ -27,17 +27,12 @@ AltCaps is a minimalist iMessage extension that instantly converts any text into
 
 ## 🔒 Privacy Policy
 
-🔐 **Data Collection:** AltCaps does **not** collect, transmit, or store any user data. All text processing happens locally on your device.
+**Data Collection:** AltCaps does **not** collect, transmit, or store any user data. All text processing happens locally on your device.
 
-For full details, see our [Privacy Policy](https://yourdomain.com/privacy-policy).
 
 ## 🤝 Contributing
 
 Improvements, bug reports, and pull requests are welcome! Please fork the repo, create a feature branch, and submit a pull request with a clear description.
-
-## 📄 License
-
-This project is released under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
 
