@@ -14,7 +14,7 @@ AltCaps is a minimalist iMessage extension that instantly converts any text into
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/AltCaps.git
+   git clone https://github.com/farazalam27/AltCaps.git
    cd AltCaps
    ```
 2. **Open in Xcode**
